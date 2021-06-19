@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>红船精神——首页</title>
+		<link rel="stylesheet" type="text/css" href="./css/index_css.css" />
+	</head>
+	<body>
+		<div id="zongti">
+			<!-- head -->
+			<div id="bg_head">
+				<div id="head">
+					<div class="center" style="position: relative;">
+						<div id="logo">
+							<img src="./img/logo.png">
+						</div>
+						<a id="biaoyu"><b> 向 奋 不 顾 身 的 先 辈 致 敬</b></a>
+						<div id="search">
+							<input type="text" placeholder="  输入关键词"
+								style="width: 270px;height: 35px;margin-top: 3px;margin-left: 2px; border: none;" />
+							<div id="search_button">
+								<a id="search_a" onclick="alert('未搜索到内容')">搜索</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div id="nav">
+					<ul>
+						<li id="now1" onclick="openIndex()">首页</li>
+						<li id="now2" onclick="openJsnh()">精神内涵</li>
+						<li id="now3" onclick="openJsjs()">精神介绍</li>
+						<li id="now4" onclick="openHcjj()">红船简介</li>
+						<li id="now5" onclick="openNhhy()">南湖会议</li>
+						<li id="now6" onclick="openYyjx()">意义解析</li>
+					</ul>
+				</div>
+			</div>
+			<div id="banner" onmouseover="bannerBtnShow()" onmouseout="bannerBtnHidden()">
+				<div id="box">
+					<div id="imgShow">
+						<div id="boxDw">
+							<ul id="imgBox">
+								<li><img src="./img/banner1.jpg"></li>
+								<li><img src="./img/banner2.jpg"></li>
+								<li><img src="./img/banner3.jpg"></li>
+								<li><img src="./img/banner4.jpg"></li>
+								<li><img src="./img/banner1.jpg"></li>
+							</ul>
+							<div id="btn">
+								<div id="btn1" class="btnStyle" onclick="but1()"></div>
+								<div id="btn2" class="btnStyle" onclick="but2()"></div>
+								<div id="btn3" class="btnStyle" onclick="but3()"></div>
+								<div id="btn4" class="btnStyle" onclick="but4()"></div>
+							</div>
+
+							<div id="leftBtn" onclick="rightBut()"></div>
+							<div id="rightBtn" onclick="leftBut()"></div>
+
+						</div>
+
+					</div>
+
+
+				</div>
+			</div>
+			<div id="main">
+				<div id="main_activity">
+					<div class="activity" >
+						<a href="https://www.nanhujng.com/" target="_blank"><img src="img/红船纪念馆.jpg"></a>
+					</div>
+					<div class="activity">
+						<a href="http://news.12371.cn/2018/07/01/VIDE1530430861277343.shtml" target="_blank"><img src="img/红船精神微视频.jpg"></a>
+					</div>
+					<div class="activity">
+						<a href="https://tv.cctv.com/2011/07/07/VIDEj8ekSinlXetpDxMX0dlu160923.shtml" target="_blank"><img src="img/红船.jpg"></a>
+					</div>
+					<div class="activity">
+						<a href="https://tv.cctv.com/2011/07/08/VIDEyEGPYC7hXCewTMG3cSgX160923.shtml" target="_blank"><img src="img/红船.jpg"></a>
+					</div>
+				</div>
+
+
+				<div id="content">
+					<div class="content1">
+						<div class="content_title">
+							<div class="line"></div>
+							<div class="slogan">
+								精神内涵
+							</div>
+						</div>
+						<div id="jsnh" onclick="openJsnh()">
+							<a>开天辟地、敢为人先的首创精神
+								<br>坚定理想、百折不挠的奋斗精神
+								<br>立党为公、忠诚为民的奉献精神</a>
+						</div>
+					</div>
+					<div class="content1">
+						<div class="content_title">
+							<div class="line"></div>
+							<div class="slogan">
+								精神介绍
+							</div>
+						</div>
+						<div id="jsjs" class="contentbox" onclick="openJsjs()">
+							<a style="font-size: 22px;">弘扬“红船精神” 走在时代前列</a>
+							<a style="font-size: 23px;"><br>作者：习近平 （《光明日报》 2005年6月21日）</a>
+							<a><br>“红船精神”同井冈山精神、长征精神、延安精神、西柏坡精神等一道，伴随中国革命的
+								<br>光辉历程，共同构成我们党在前进道路上战胜各种困难和风险、
+								不断夺取新胜利的强大精神力量和宝贵精神财富。</a>
+						</div>
+					</div>
+					<div id="content3_4">
+						<div id="content1">
+							<div class="content_title">
+								<div class="line"></div>
+								<div class="slogan">
+									红船简介
+								</div>
+							</div>
+							<div id="hcjj" onclick="openHcjj()()">
+								<a>&nbsp;&nbsp;&nbsp;&nbsp;1921年7月底，中国共产党第一次全
+									国代表大会由上海转移到嘉兴南湖一艘画舫上继续举
+									行并顺利闭幕，庄严宣告了中国共产党的诞生。
+									这艘画舫因而获得了一个永载中国革命史册的名字——红船，成为中国革命源
+									头的象征。</a>
+							</div>
+						</div>
+						<div id="content1">
+							<div class="content_title" style="margin-left: 150px;">
+								<div class="line"></div>
+								<div class="slogan">
+									南湖会议
+								</div>
+							</div>
+							<div id="nhhy" onclick="openNhhy()()">
+								<a>&nbsp;&nbsp;&nbsp;&nbsp;中共一大会议实际上分为两个重要部分：一是中共一大上海会议，一是中共一大南湖会议。在嘉兴南湖游船上，中共一大代表通过了党纲、决议和工作计划，选举组成中央局，正式宣告党的诞生。</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="content1">
+						<div class="content_title">
+							<div class="line"></div>
+							<div class="slogan">
+								意义解析
+							</div>
+						</div>
+						<div id="yyjx" onclick="openYyjx()">
+							<a>&nbsp;&nbsp;&nbsp;&nbsp;“红船精神”是激励我们把握发展这一时代主题和党执政兴国第一要务，
+								大胆探索、创新创业的强大思想武器。 面对新挑战、新机遇和新形势、新任务，我们要坚持和发扬“红船
+								精神”，有敢于突破前人的勇气和智慧，自觉克服安于现状、不思进取的思想观念，坚持用创新的理论成果
+								武装头脑，用创新的思想观念谋划工作，紧紧扭住发展不放松，与时俱进，开拓创新，不断推进建设中国特
+								色社会主义的伟大事业。“红船精神”是鼓舞我们坚定共产主义理想和中国特色社会主义信念，不畏艰险、艰
+								苦奋斗的强大精神支柱。我们必须坚持和发扬“红船精神”，坚定理想信念，增强忧患意识，居安思危，处盛
+								虑衰，以共产党人的胸襟和眼界观察世界、判断形势，恪尽职守、脚踏实地，不怕艰难、坚韧不拔，矢志拼
+								搏、艰苦创业，努力谱写全面建设小康社会、加快推进社会主义现代化的新篇章。“红船精神”是鞭策我们牢
+								记立党为公、执政为民本质要求和全心全意为人民服务的根本宗旨，求真务实、一心为民的强大道德力量。
+								我们必须牢记“权为民所用、情为民所系、利为民所谋”的谆谆教诲，继续发扬“红船精神”，始终不渝地为最
+								广大人民谋利益，坚持人民利益高于一切的政德，真正干出有利于党和人民事业的政绩。</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div id="foot">
+				<div id="center">
+					<div class="botten_left">
+						<img src="./img/logo2.png">
+					</div>
+					<div class="botten_right">
+						<div class="botten_right_nr">
+							<h2>联系我们</h2>
+							<ul>
+								<ol>客服电话：18258618745</ol>
+								<ol>商业沟通：2454200941@qq.com</ol>
+								<ol>发布地址：杭州科技职业技术学院</ol>
+							</ul>
+						</div>
+						<div class="botten_right_nr">
+							<h2>关于</h2>
+							<ul>
+								<ol><a href="gybz.html" target="_blank">关于本站</a></ol>
+								<ol><a href="yszc.html" target="_blank">隐私政策</a></ol>
+								<ol>关注：<a href="https://weibo.com/u/5586624294?is_all=1" target="_blank">微博</a></ol>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+
+
+
+
+		<script src="./js/banner.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/index_js.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

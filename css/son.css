@@ -1,0 +1,182 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.center{
+	margin: 0 auto;
+	width: 1500px;
+	height: 100%;
+}
+
+#zongti {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #fff5ef;
+}
+
+/* hear */
+
+#bg_head {
+	width: 100%;
+	height: 350px;
+	background-color: #bc1515;
+}
+
+#head {
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+	background: url(../img/head_bg.png) repeat center;
+}
+
+#logo {
+	width: 350px;
+	height: 150px;
+	position: absolute;
+		left: 200px;
+		top: 35px;
+}
+
+#search {
+	width: 340px;
+	height: 40px;
+	background-color: coral;
+	position: absolute;
+	left: 1000px;
+	top: 110px;
+	display: flex;
+}
+
+#biaoyu {
+	color: red;
+	font-size: 23px;
+	font-family: 黑体;
+	position: absolute;
+	left: 1000px;
+	top: 75px;
+}
+
+#search_button {
+	margin-top: 4px;
+	margin-left: 10px;
+	width: 50px;
+	height: 40px;
+}
+
+#search_a {
+	color: white;
+	font-size: 20px;
+}
+
+#nav {
+	width: 1300px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#nav ul {
+	margin-left: 40px;
+	list-style: none;
+	display: flex;
+}
+
+#nav ul li {
+	color: white;
+	display: block;
+	width: 200px;
+	height: 35px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+#nav ul li:hover{
+	animation: bgcolor 1s;
+	background-color: #94000B;
+}
+
+/* head */
+
+/* main */
+
+#main{
+	width: 100%;
+	margin: 80px 0;
+}
+#line{
+	width: 100%;
+	height: 1px;
+	background-color: #888888;
+	margin: 30px 0;
+}
+#title h2{
+	font-family: 宋体;
+	font-size: 30px;
+}
+#title h4{
+	font-family: 宋体;
+	margin-top: 10px;
+	font-size: 20px;
+}
+#textbox a{
+	font-family: 宋体;
+	line-height: 40px;
+	font-size: 23px;
+}
+
+#textbox{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/* main */
+
+/* foot */
+
+#foot{
+	width: 100%;
+	height: 250px;
+	background-color: #888888;
+}
+#center{
+	width: 1300px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;	
+	justify-content: space-between;
+}
+
+.botten_right{
+	display: flex;
+	line-height: 30px;
+	color: white;
+	
+}
+.botten_right_nr h2{
+	margin-bottom: 10px;
+	font-size: 18px;
+	
+}
+.botten_right_nr{
+	font-size: 12px;
+	margin-left: 90px;
+}
+.botten_right_nr a:link{
+	color:white ;
+	text-decoration: none;
+}
+
+.botten_right_nr a:active{
+	color:white ;
+}
+
+.botten_right_nr a:visited{
+	color:white ;
+}
+.botten_right_nr a:hover{
+	color: #BC1515 ;
+}
+/* foot */

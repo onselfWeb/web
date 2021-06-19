@@ -1,0 +1,428 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.center{
+	margin: 0 auto;
+	width: 1500px;
+	height: 100%;
+}
+
+#zongti {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #fff5ef;
+}
+
+/* hear */
+
+#bg_head {
+	width: 100%;
+	height: 350px;
+	background-color: #bc1515;
+}
+
+#head {
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+	background: url(../img/head_bg.png) repeat center;
+}
+
+#logo {
+	width: 350px;
+	height: 150px;
+	position: absolute;
+		left: 200px;
+		top: 35px;
+}
+
+#search {
+	width: 340px;
+	height: 40px;
+	background-color: coral;
+	position: absolute;
+	left: 1000px;
+	top: 110px;
+	display: flex;
+}
+
+#biaoyu {
+	color: red;
+	font-size: 23px;
+	font-family: 黑体;
+	position: absolute;
+	left: 1000px;
+	top: 75px;
+}
+
+#search_button {
+	margin-left: 18px;
+	width: 50px;
+	height: 40px;
+	line-height: 40px;
+}
+
+#search_a {
+
+	color: white;
+	font-size: 15px;
+}
+#search_a:hover{
+	font-size: 17px;
+}
+#nav {
+	width: 1300px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#nav ul {
+	margin-left: 40px;
+	list-style: none;
+	display: flex;
+}
+
+#nav ul li {
+	color: white;
+	display: block;
+	width: 200px;
+	height: 35px;
+	text-align: center;
+	padding-top: 15px;
+}
+#nav ul li:hover{
+	animation: bgcolor 1s;
+	background-color: #94000B;
+}
+#now1 {
+	background-color: #94000b;
+}
+
+/* head */
+
+
+/* banner */
+
+#banner {
+	width: 1520px;
+	height: 550px;
+	background-color: yellow;
+	margin: 0 auto;
+}
+
+
+#box {
+	width: 100%;
+	height: 550px;
+
+	margin: auto auto;
+}
+
+#btn {
+	width: 110px;
+	height: 50px;
+	position: absolute;
+		left: 1250px;
+		top: 500px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.btnStyle {
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border-radius: 50%;
+	
+}
+.btnStyle:hover{
+	background-color: #BC1515;
+}
+
+#imgShow {
+	background-color: black;
+	height: 550px;
+	width: 1520px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#imgBox {
+	display: flex;
+	width: 6080px;
+	height: 550px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#boxDw {
+	position: absolute;
+	width: 1520px;
+	height: 550px;
+	overflow: hidden;
+}
+
+#leftBtn {
+	height: 0%;
+	width: 120px;
+	background: url(../img/bannerLeft.png) repeat center;
+	background-color: rgba(255,255,255,0.2);
+	position: absolute;
+}
+
+#rightBtn {
+	height: 0%;
+	width: 120px;
+	background: url(../img/bannerRight.png) repeat center;
+	background-color: rgba(255,255,255,0.2);
+	position: absolute;
+		top: 0px;
+		left: 1400px;
+}
+
+/* banner */
+
+/* margin */
+
+#main{
+	height: 1900px;
+	width:100% ;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+#main_activity{
+	width: 1450px;
+	height: 190px;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+.activity{
+	width: 320px;
+	height: 160px;
+	background-color: white;
+	border: 1px solid;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#occlude{
+	width: 320px;
+	height: 0px;
+	background-color: rgba(0,0,0,0.3);
+	text-align: center;
+	line-height: 170px;
+	color: white;
+	position: absolute;
+		top: 952px;
+		
+}
+#occlude a{
+	font-size: 25px;
+	font-family: 宋体;
+}
+
+#content{
+	width: 1450px;
+	height:100%;
+	margin: 80px auto;
+	
+}
+.content1{
+	width: 100%;
+	height: 280px;
+	margin: 60px 0;
+}
+
+.content_title{
+	width: 100%;
+	height: 30px;
+	display: flex;
+}
+.line{
+	width: 5px;
+	height: 25px;
+	background-color: #94000B;
+	margin-right: 20px;
+}
+.slogan{
+	font-size: 20px;
+	text-align: center;
+	
+}
+#jsnh{
+	width: 100%;
+	height: 200px;
+	margin-top: 20px;
+	padding-top: 50px;
+	font-size: 40px;
+	font-family: 华文行楷;
+	text-align: center;
+	background-color: #fedcbd	;
+	box-shadow: 3px 3px 10px #888888;
+	
+}
+#jsnh:hover{
+	animation:content_hover 0.2s infinite ;
+	margin-top: 13px;
+	box-shadow: 5px 5px 20px #888888;
+}
+
+
+
+#jsjs{
+	width: 100%;
+	height: 200px;
+	margin-top: 20px;
+	padding-top: 50px;
+	font-size: 20px;
+	font-family: 黑体;
+	text-align: center;
+	background-color: #fedcbd;
+	box-shadow: 3px 3px 10px #888888;
+	line-height: 35px;
+}
+#jsjs:hover{
+	animation:content_hover 0.2s infinite ;
+	margin-top: 13px;
+	box-shadow: 5px 5px 20px #888888;
+}
+
+
+#content3_4{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#hcjj{
+	width: 80%;
+	height: 200px;
+	margin-top: 20px;
+	padding-top: 50px;
+	font-size: 20px;
+	font-family: 黑体;
+	background-color: #fedcbd;
+	box-shadow: 3px 3px 10px #888888;
+	line-height: 35px;
+}
+#hcjj a{
+	font-size: 18px;
+	display: block;
+	height: 80%;
+	width: 80%;
+	margin: 0 auto;
+}
+#hcjj:hover{
+	animation:content_hover 0.2s infinite ;
+	margin-top: 13px;
+	box-shadow: 5px 5px 20px #888888;
+}
+
+
+#nhhy{
+	width: 80%;
+	height: 200px;
+	margin-top: 20px;
+	padding-top: 50px;
+	margin-left: 150px;
+	font-size: 20px;
+	font-family: 黑体;
+	background-color: #fedcbd;
+	box-shadow: 3px 3px 10px #888888;
+	line-height: 35px;
+}
+#nhhy a{
+	font-size: 18px;
+	display: block;
+	height: 80%;
+	width: 80%;
+	margin: 0 auto;
+}
+#nhhy:hover{
+	animation:content_hover 0.2s infinite ;
+	margin-top: 13px;
+	box-shadow: 5px 5px 20px #888888;
+}
+
+#yyjx{
+	width: 100%;
+	height: 320px;
+	margin-top: 20px;
+	padding-top: 50px;
+	font-size: 20px;
+	font-family: 黑体;
+	background-color: #fedcbd;
+	box-shadow: 3px 3px 10px #888888;
+	line-height: 35px;
+}
+#yyjx a{
+	font-size: 18px;
+	display: block;
+	height: 80%;
+	width: 80%;
+	margin: 0 auto;
+}
+#yyjx:hover{
+	animation:content_hover 0.2s infinite ;
+	margin-top: 13px;
+	box-shadow: 5px 5px 20px #888888;
+}
+
+/* main */
+
+/* foot */
+
+#foot{
+	width: 100%;
+	height: 250px;
+	background-color: #888888;
+}
+#center{
+	width: 1300px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;	
+	justify-content: space-between;
+}
+
+.botten_right{
+	display: flex;
+	line-height: 30px;
+	color: white;
+	
+}
+.botten_right_nr h2{
+	margin-bottom: 10px;
+	font-size: 18px;
+	
+}
+.botten_right_nr{
+	font-size: 12px;
+	margin-left: 90px;
+}
+.botten_right_nr a:link{
+	color:white ;
+	text-decoration: none;
+}
+
+.botten_right_nr a:active{
+	color:white ;
+}
+
+.botten_right_nr a:visited{
+	color:white ;
+}
+.botten_right_nr a:hover{
+	color: #BC1515 ;
+}
+/* foot */
